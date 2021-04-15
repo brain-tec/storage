@@ -1,15 +1,15 @@
 # Copyright 2017 Akretion (http://www.akretion.com).
 # @author Sébastien BEAU <sebastien.beau@akretion.com>
-# License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
+# License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
 
 {
     "name": "Storage Media",
     "summary": "Give the posibility to store media data in Odoo",
-    "version": "13.0.1.0.1",
+    "version": "13.0.1.1.0",
     "category": "Uncategorized",
     "website": "https://github.com/OCA/storage",
     "author": " Akretion, Odoo Community Association (OCA)",
-    "license": "AGPL-3",
+    "license": "LGPL-3",
     "application": False,
     "installable": True,
     "external_dependencies": {"python": [], "bin": []},
