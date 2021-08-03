@@ -1,15 +1,15 @@
 # Copyright 2017 Akretion (http://www.akretion.com).
 # @author Sébastien BEAU <sebastien.beau@akretion.com>
-# License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
+# License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
 
 {
     "name": "Storage Bakend",
     "summary": "Implement the concept of Storage with amazon S3, sftp...",
-    "version": "14.0.1.1.0",
+    "version": "14.0.2.0.0",
     "category": "Storage",
     "website": "https://github.com/OCA/storage",
     "author": " Akretion, Odoo Community Association (OCA)",
-    "license": "AGPL-3",
+    "license": "LGPL-3",
     "development_status": "Production/Stable",
     "installable": True,
     "depends": ["base", "component", "server_environment"],
