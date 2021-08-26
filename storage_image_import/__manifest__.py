@@ -6,7 +6,7 @@
 {
     "name": "Storage Image Import",
     "summary": "Add the possibility to import image for csv base on url",
-    "version": "14.0.1.0.0",
+    "version": "14.0.1.1.0",
     "category": "Storage",
     "website": "https://github.com/OCA/storage",
     "author": " Akretion, Odoo Community Association (OCA)",
@@ -16,8 +16,5 @@
     "external_dependencies": {
         "python": ["unicodecsv"],
     },
-    "depends": [
-        "storage_image",
-        "storage_image_product",
-    ],
+    "depends": ["storage_image"],
 }
