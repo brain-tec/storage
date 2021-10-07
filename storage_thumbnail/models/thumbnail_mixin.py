@@ -52,7 +52,7 @@ class ThumbnailMixing(models.AbstractModel):
         for rec in self:
             for scale in self._image_scale_mapping.keys():
                 fname = "thumb_%s_id" % scale
-                rec[fname] = self._get_thumb(scale_key=scale)
+                rec[fname] = rec._get_thumb(scale_key=scale)
 
     def _get_thumb(self, scale_key=None, scale=None):
         """Retrievet the first thumb matching given scale."""
@@ -69,10 +69,14 @@ class ThumbnailMixing(models.AbstractModel):
     def _get_small_thumbnail(self):
         return self.get_or_create_thumbnail(*self._image_scale_mapping["small"])
 
-    def get_or_create_thumbnail(self, size_x, size_y, url_key=None):
-        self.ensure_one()
+    def _get_url_key(self, url_key):
         if url_key:
             url_key = slugify(url_key)
+        return url_key
+
+    def get_or_create_thumbnail(self, size_x, size_y, url_key=None):
+        self.ensure_one()
+        url_key = self._get_url_key(url_key)
         thumbnail = self.env["storage.thumbnail"].browse()
         for th in self.thumbnail_ids:
             if th.size_x == size_x and th.size_y == size_y:
