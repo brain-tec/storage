@@ -16,6 +16,7 @@ setuptools.setup(
         'odoo14-addon-storage_image_import',
         'odoo14-addon-storage_image_product',
         'odoo14-addon-storage_image_product_brand',
+        'odoo14-addon-storage_image_product_brand_import',
         'odoo14-addon-storage_image_product_import',
         'odoo14-addon-storage_image_product_pos',
         'odoo14-addon-storage_media',
@@ -25,5 +26,6 @@ setuptools.setup(
     classifiers=[
         'Programming Language :: Python',
         'Framework :: Odoo',
+        'Framework :: Odoo :: 14.0',
     ]
 )
