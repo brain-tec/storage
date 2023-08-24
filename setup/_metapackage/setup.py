@@ -8,6 +8,10 @@ setuptools.setup(
     description="Meta package for oca-storage Odoo addons",
     version=version,
     install_requires=[
+        'odoo-addon-fs_attachment>=16.0dev,<16.1dev',
+        'odoo-addon-fs_file>=16.0dev,<16.1dev',
+        'odoo-addon-fs_file_demo>=16.0dev,<16.1dev',
+        'odoo-addon-fs_storage>=16.0dev,<16.1dev',
         'odoo-addon-storage_backend>=16.0dev,<16.1dev',
     ],
     classifiers=[
