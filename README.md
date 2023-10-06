@@ -21,14 +21,16 @@ Available addons
 ----------------
 addon | version | maintainers | summary
 --- | --- | --- | ---
-[storage_backend](storage_backend/) | 15.0.1.0.2 |  | Implement the concept of Storage with amazon S3, sftp...
+[storage_backend](storage_backend/) | 15.0.1.1.0 |  | Implement the concept of Storage with amazon S3, sftp...
 [storage_backend_ftp](storage_backend_ftp/) | 15.0.1.1.0 |  | Implement FTP Storage
 [storage_backend_s3](storage_backend_s3/) | 15.0.1.0.1 |  | Implement amazon S3 Storage
 [storage_backend_sftp](storage_backend_sftp/) | 15.0.1.0.3 |  | Implement SFTP Storage
 [storage_file](storage_file/) | 15.0.1.0.0 |  | Storage file in storage backend
 [storage_image](storage_image/) | 15.0.1.0.0 |  | Store image and resized image in a storage backend
-[storage_image_product](storage_image_product/) | 15.0.1.1.0 |  | Link images to products and categories
+[storage_image_backend_migration](storage_image_backend_migration/) | 15.0.1.0.0 |  | Migrate src backend to destination backend
+[storage_image_product](storage_image_product/) | 15.0.1.1.1 |  | Link images to products and categories
 [storage_import_image_advanced](storage_import_image_advanced/) | 15.0.1.0.0 |  | Import product images using CSV
+[storage_media](storage_media/) | 15.0.1.0.0 |  | Give the posibility to store media data in Odoo
 [storage_thumbnail](storage_thumbnail/) | 15.0.1.0.0 |  | Abstract module that add the possibility to have thumbnail
 
 [//]: # (end addons)
