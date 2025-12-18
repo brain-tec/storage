@@ -1,14 +1,11 @@
 exclude: |
   (?x)
   # NOT INSTALLABLE ADDONS
-  ^fs_attachment/|
-  ^fs_attachment_s3/|
   ^fs_file/|
   ^fs_folder/|
   ^fs_folder_demo/|
   ^fs_folder_ms_drive/|
   ^fs_image/|
-  ^fs_storage/|
   ^fs_storage_ms_drive/|
   ^image_tag/|
   ^microsoft_drive_account/|
